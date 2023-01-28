@@ -1,20 +1,23 @@
+/* color palette: (Black: #222831, Space: #393E46, Teal(#00ADB5), Light grey: #EEEEEE)*/
 body {
     background-color: #15202b;
 }
 
 h1 {
-    color: white;
+    color: #EEEEEE;
     font-family:sans-serif;
 }
 
 p {
-  color:white;
+  color:#EEEEEE;
   font-family:sans-serif;
+  font-weight: bold;
 }
 
 ul {
-  color:white;
+  color:#00ADB5;
   font-family:sans-serif;
+  font-weight: bold;
 }
 
 img {
