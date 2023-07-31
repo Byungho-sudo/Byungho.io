@@ -1,21 +1,15 @@
 /* color palette: (Black: #222831, Space: #393E46, Teal(#00ADB5), Light grey: #EEEEEE)*/
 body {
-    background-color: #15202b;
+  background-color: #15202b;
 }
 
 h1 {
-    color: #EEEEEE;
-    font-family:sans-serif;
+  color: #EEEEEE;
+  font-family:sans-serif;
 }
 
 p {
   color:#EEEEEE;
-  font-family:sans-serif;
-  font-weight: bold;
-}
-
-ul {
-  color:#00ADB5;
   font-family:sans-serif;
   font-weight: bold;
 }
@@ -30,15 +24,24 @@ img {
   text-align: center
  }
 
- .card {
+.card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 15px;
-    height: auto;
-    margin: auto;
-    width: 550px;
+  transition: 0.5s;
+  border-radius: 15px;
+  margin: auto;
+  max-width: 550px;
+  min-width: 40px;
+  background-color: #006666;
+  margin-bottom: 3rem;
+  padding: 10px;
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 16px 16px 32px 16px rgba(0,0,0,0.2);
+  background-color: #00ADB5;
+  transform: translateY(-10px);
+}
+
+.container {
+  padding: 2px 16px;
 }
