@@ -18,16 +18,17 @@ p {
   text-align: center
  }
 
-.OrderContainer {
-  display:inline flex;
-  flex-flow: row wrap;
-  margin: 8em 2em 0em 2em;
+.Container {
+  display: grid;
+  gap: 1em;
+  grid-template-columns:repeat(auto-fit, minmax(35em, 35em));
+  justify-content: center;
 }
 
 .card {
   transition: 0.5s;
   border-radius: 2em;
-  /* margin: auto; */
+  margin: auto;
   margin-right: 2em;
   margin-bottom: 2em;
   max-width: 35em;
