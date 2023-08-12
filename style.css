@@ -22,7 +22,8 @@ p {
   margin-top: 10em;
   display: grid;
   gap: 3em;
-  grid-template-columns:repeat(auto-fit, minmax(35em, 35em));
+  grid-template-columns:repeat(auto-fit, minmax(3em, 35em));
+  margin: 0em 3em 0em 3em;
   justify-content: center;
 }
 
