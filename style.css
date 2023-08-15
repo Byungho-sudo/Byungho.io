@@ -15,8 +15,8 @@ p {
 }
 
 img {
-  width: 35em;
-  height: 35em;
+  width: auto;
+  height: auto;
   max-width: 35em ;
   max-height: 35em;
 }
@@ -41,6 +41,7 @@ img {
   border-color: #797979;
   border-style: solid;
   border-radius: 1.8em;
+  width: 100%;
 }
 
 .card:hover {
