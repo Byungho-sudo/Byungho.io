@@ -14,6 +14,13 @@ p {
   font-weight: bold;
 }
 
+img {
+  width: auto;
+  height: auto;
+  max-width:35em ;
+  max-height: 35em;
+}
+
 .center {
   text-align: center
  }
@@ -22,17 +29,18 @@ p {
   margin-top: 10em;
   display: grid;
   gap: 3em;
-  grid-template-columns:repeat(auto-fit, minmax(3em, 35em));
-  margin: 0em 3em 0em 3em;
+  grid-template-columns:repeat(auto-fit, minmax(2em, 35em));
+  margin: 0em 2em 0em 2em;
   justify-content: center;
 }
 
 .card {
   transition: 0.5s;
   border-radius: 2em;
-  background-color: #006666;
+  /* background-color: #006666; */
   border-color: #797979;
   border-style: solid;
+  border-radius: 1.8em;
 }
 
 .card:hover {
