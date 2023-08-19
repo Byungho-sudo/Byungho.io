@@ -1,5 +1,6 @@
-var ImgList = document.querySelectorAll("Img")
+const imgList = document.querySelectorAll("img"); // Use lowercase for variable names and capitalize the "img" tag name
 
-ImgList.forEach((element) => console.log(element));
-
-ImgList.forEach((element) => element.classList.add("card"));
+imgList.forEach((element) => {
+  console.log(element);
+  element.classList.add("card");
+});
