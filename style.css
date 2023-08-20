@@ -24,7 +24,8 @@ img {
 .material-icons {
   color: white;
   font-size:48px;
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
 }
 
 .material-icons:hover {
@@ -47,7 +48,6 @@ img {
 .card {
   transition: 0.5s;
   border-radius: 2em;
-  /* background-color: #006666; */
   border-color: #797979;
   border-style: solid;
   border-radius: 1.8em;
@@ -56,8 +56,31 @@ img {
 
 .card:hover {
   box-shadow: 1em 1em 2em 1em #0e0e0e;
-  /* background-color: #00ADB5; */
   border-color:#e5e5e5;
   transform: translateY(-10px);
   cursor: pointer;
+}
+
+.container {
+  position: relative;
+}
+
+/* The following code is experimental */
+
+.overlay {
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: auto;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
 }
