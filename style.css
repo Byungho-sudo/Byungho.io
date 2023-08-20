@@ -21,6 +21,16 @@ img {
   max-height: 35em;
 }
 
+.material-icons {
+  color: white;
+  font-size:48px;
+  margin-bottom: 10vh;
+}
+
+.material-icons:hover {
+  cursor: pointer;
+}
+
 .center {
   text-align: center;
  }
