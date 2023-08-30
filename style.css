@@ -24,7 +24,8 @@ img {
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
-  overflow: hidden;
+    overflow: hidden;
+    margin-bottom: 8vh;
 }
 
 /* Style the links inside the navigation bar */
@@ -52,8 +53,8 @@ img {
 .material-icons {
   color: white;
   font-size:48px;
-  margin-bottom: 5vh;
-  margin-top: 5vh;
+  /* margin-bottom: 5vh;
+  margin-top: 5vh; */
 }
 
 .material-icons:hover {
