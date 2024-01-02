@@ -1,9 +1,18 @@
-const imgList = document.querySelectorAll("img"); // Use lowercase for variable names and capitalize the "img" tag name
+function loadNavigation() {
+  document.write(`
+    <div class="topnav">
+      <a class="material-icons" href="../../index.html">home</a>
+      <a href="About.html">About</a>
+    </div>
+  `);
+}
 
-imgList.forEach((element) => {
-  console.log(element);
-  element.classList.add("card");
-});
+// const imgList = document.querySelectorAll("img"); // Use lowercase for variable names and capitalize the "img" tag name
+
+// imgList.forEach((element) => {
+//   console.log(element);
+//   element.classList.add("card");
+// });
 
 
 // OBS!!! Section "GearTestList" is linked to "Test Site" in "Sorting_Test.html"
