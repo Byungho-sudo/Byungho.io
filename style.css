@@ -13,10 +13,7 @@ p {
 }
 
 img {
-  width: auto;
-  height: auto;
   max-width: 35em;
-  max-height: 35em;
 }
 
 /* Navigation styles */
@@ -24,7 +21,7 @@ img {
   background-color: #333;
   overflow: hidden;
   margin-bottom: 7vh;
-  height: 3.361vh;
+  height: 5vh;
 }
 
 .topnav a {
@@ -66,24 +63,6 @@ img {
   grid-template-columns: repeat(auto-fit, minmax(2em, 35em));
   margin: 0 2em;
   justify-content: center;
-}
-
-.card {
-  transition: 0.5s;
-  border: solid 1.8em #797979;
-  border-radius: 1.8em;
-  width: 100%;
-}
-
-.card:hover {
-  box-shadow: 1em 1em 2em 1em #0e0e0e;
-  border-color: #e5e5e5;
-  transform: translateY(-10px);
-  cursor: pointer;
-}
-
-.container {
-  position: relative;
 }
 
 .overlay {
