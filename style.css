@@ -14,22 +14,8 @@ p {
 }
 
 img {
-  max-width: 35em; /* Default size */
+  max-width: 30em;
   border-radius: 10px;
-}
-
-/* If the screen width is 600px or less, make img max-width smaller */
-@media screen and (max-width: 600px) {
-  img {
-    max-width: 25em;
-  }
-}
-
-/* You can add more conditions for different screen sizes */
-@media screen and (max-width: 400px) {
-  img {
-    max-width: 10em;
-  }
 }
 
 /* Navigation styles */
@@ -75,8 +61,8 @@ img {
 .Container {
   margin-top: 10em;
   display: grid;
-  gap: 1em;
-  grid-template-columns: repeat(auto-fit, minmax(2em, 35em));
+  gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(2em, 30em));
   margin: 0 4vh;
   justify-content: center;
 }
