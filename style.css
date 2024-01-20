@@ -14,8 +14,22 @@ p {
 }
 
 img {
-  max-width: 35em;
+  max-width: 35em; /* Default size */
   border-radius: 10px;
+}
+
+/* If the screen width is 600px or less, make img max-width smaller */
+@media screen and (max-width: 600px) {
+  img {
+    max-width: 25em;
+  }
+}
+
+/* You can add more conditions for different screen sizes */
+@media screen and (max-width: 400px) {
+  img {
+    max-width: 10em;
+  }
 }
 
 /* Navigation styles */
